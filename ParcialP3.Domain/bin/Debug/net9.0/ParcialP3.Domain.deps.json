@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ParcialP3.Domain/1.0.0": {
+        "runtime": {
+          "ParcialP3.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ParcialP3.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

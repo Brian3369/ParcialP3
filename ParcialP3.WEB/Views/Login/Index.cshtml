@@ -1,0 +1,35 @@
+﻿@model ParcialP3.Application.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_LayoutAnonymous";
+}
+<br />
+<br />
+<br />
+
+<div class="d-flex justify-content-center">
+    <div class="col-12 col-md-4">
+        <div class="card">
+            <div class="card-header bg-success text-light"><h5 class="text-center">Login User</h5></div>
+            <div class="card-body">
+                @Html.ValidationSummary(false, "", new{@class = "text-danger"})
+                <form asp-controller="Login" asp-action="Index" method="POST">
+                    <div class="mb-3">
+                        <label asp-for="Usuario" class="form-label">Name:</label>
+                        <input class="form-control" asp-for="Usuario" />
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label">Password:</label>
+                        <input type="password" class="form-control" asp-for="Password" />
+                    </div>
+      
+                    <div>
+                        <button type="submit" class="btn btn-outline-primary float-end"><i class="bi bi-floppy2"></i>Login</button>
+                        <a asp-controller="Login" asp-action="Register" class="btn btn-outline-warning float-end me-2"><i class="bi bi-arrow-left-short"></i>Register</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
