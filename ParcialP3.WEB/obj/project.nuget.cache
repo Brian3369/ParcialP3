@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rw60yNNgqWg=",
+  "dgSpecHash": "92uhgdE2pg4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brian\\source\\repos\\ParcialP3\\ParcialP3.WEB\\ParcialP3.WEB.csproj",
+  "projectFilePath": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.WEB\\ParcialP3.WEB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brian\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Brian\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

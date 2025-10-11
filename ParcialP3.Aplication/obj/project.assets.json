@@ -1096,11 +1096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brian\\source\\repos\\ParcialP3\\ParcialP3.Aplication\\ParcialP3.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Aplication\\ParcialP3.Application.csproj",
       "projectName": "ParcialP3.Application",
-      "projectPath": "C:\\Users\\Brian\\source\\repos\\ParcialP3\\ParcialP3.Aplication\\ParcialP3.Application.csproj",
+      "projectPath": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Aplication\\ParcialP3.Application.csproj",
       "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brian\\source\\repos\\ParcialP3\\ParcialP3.Aplication\\obj\\",
+      "outputPath": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Aplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

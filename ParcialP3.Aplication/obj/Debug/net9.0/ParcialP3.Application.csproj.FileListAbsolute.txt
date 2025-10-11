@@ -10,3 +10,16 @@ C:\Users\Brian\source\repos\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\refi
 C:\Users\Brian\source\repos\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.pdb
 C:\Users\Brian\source\repos\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ref\ParcialP3.Application.dll
 C:\Users\Brian\source\repos\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.csproj.AssemblyReference.cache
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\bin\Debug\net9.0\ParcialP3.Application.deps.json
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\bin\Debug\net9.0\ParcialP3.Application.dll
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\bin\Debug\net9.0\ParcialP3.Application.pdb
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.csproj.AssemblyReference.cache
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.AssemblyInfoInputs.cache
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.AssemblyInfo.cs
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.sourcelink.json
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.dll
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\refint\ParcialP3.Application.dll
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ParcialP3.Application.pdb
+C:\Users\Brian\Desktop\New folder\ParcialP3\ParcialP3.Aplication\obj\Debug\net9.0\ref\ParcialP3.Application.dll

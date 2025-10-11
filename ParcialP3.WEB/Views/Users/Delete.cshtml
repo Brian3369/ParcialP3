@@ -1,37 +1,44 @@
 ﻿@model ParcialP3.Application.ViewModels.RemoveUserViewModel
- 
+
 @{
-    ViewData["Title"] = "Delete User";
+    ViewData["Title"] = "Eliminar Usuario";
 }
-<h1>Delete User</h1>
 
-<h3>Seguro deseas eliminar el usuario?</h3>
-<div>
-    <h4>Datos usuario</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Usuario)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Edad)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.idEstatus)
-        </dd>
-    </dl>
-
-    <form asp-action="Delete">
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-danger shadow-sm">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0"><i class="bi bi-trash"></i> Eliminar Usuario</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="text-danger mb-3"><i class="bi bi-exclamation-triangle"></i> ¿Seguro que deseas eliminar el usuario?</h5>
+                    <dl class="row">
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.ID)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.ID)</dd>
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Nombre)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Nombre)</dd>
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Usuario)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Usuario)</dd>
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Email)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Email)</dd>
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Edad)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Edad)</dd>
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.idEstatus)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.idEstatus)</dd>
+                    </dl>
+                    <form asp-action="Delete" class="mt-4">
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-danger">
+                                <i class="bi bi-trash"></i> Eliminar
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Volver a la lista
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
