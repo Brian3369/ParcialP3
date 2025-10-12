@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Brian\\Desktop\\ParcialP3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FDB4B5CE-7BA1-4519-8F4F-212F7EA12EE6}|ParcialP3.Aplication\\ParcialP3.Application.csproj|c:\\users\\brian\\desktop\\parcialp3\\parcialp3.aplication\\parcialp3.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDB4B5CE-7BA1-4519-8F4F-212F7EA12EE6}|ParcialP3.Aplication\\ParcialP3.Application.csproj|solutionrelative:parcialp3.aplication\\parcialp3.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|c:\\users\\brian\\desktop\\parcialp3\\parcialp3.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|solutionrelative:parcialp3.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|c:\\users\\brian\\desktop\\parcialp3\\parcialp3.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|solutionrelative:parcialp3.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -95,16 +103,8 @@
       "RelativeMoniker": "D:0:0:{5DC9E566-C057-44B0-B493-7CD1335D6027}|ParcialP3.Domain\\ParcialP3.Domain.csproj|solutionrelative:parcialp3.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDB4B5CE-7BA1-4519-8F4F-212F7EA12EE6}|ParcialP3.Aplication\\ParcialP3.Application.csproj|c:\\users\\brian\\desktop\\parcialp3\\parcialp3.aplication\\parcialp3.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FDB4B5CE-7BA1-4519-8F4F-212F7EA12EE6}|ParcialP3.Aplication\\ParcialP3.Application.csproj|solutionrelative:parcialp3.aplication\\parcialp3.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|c:\\users\\brian\\desktop\\parcialp3\\parcialp3.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|solutionrelative:parcialp3.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|c:\\users\\brian\\desktop\\parcialp3\\parcialp3.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|solutionrelative:parcialp3.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5688CA4F-8C78-4B8B-91BD-AB0C6DCF31E5}|ParcialP3.WEB\\ParcialP3.WEB.csproj|c:\\users\\brian\\desktop\\parcialp3\\parcialp3.web\\views\\shared\\_layoutanonymous.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -143,30 +143,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "ParcialP3.WEB\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "ParcialP3.WEB\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAwwIwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:35:13.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "ParcialP3.WEB\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "ParcialP3.WEB\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAwC0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T03:18:03.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "AccesDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Views\\Login\\AccesDenied.cshtml",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Views\\Login\\AccesDenied.cshtml",
@@ -178,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Views\\Login\\Index.cshtml",
@@ -190,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Views\\Login\\Register.cshtml",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Views\\Login\\Register.cshtml",
@@ -202,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Views\\Shared\\_Layout.cshtml",
@@ -214,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "index.cshtml",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Views\\Users\\index.cshtml",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Views\\Users\\index.cshtml",
@@ -226,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Views\\Users\\Edit.cshtml",
@@ -238,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Views\\Users\\Create.cshtml",
@@ -251,7 +227,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Program.cs",
+              "RelativeDocumentMoniker": "ParcialP3.WEB\\Program.cs",
+              "ToolTip": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Program.cs",
+              "RelativeToolTip": "ParcialP3.WEB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T02:58:04.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParcialP3.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ParcialP3.Application.csproj",
+              "RelativeDocumentMoniker": "ParcialP3.Aplication\\ParcialP3.Application.csproj",
+              "ToolTip": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ParcialP3.Application.csproj",
+              "RelativeToolTip": "ParcialP3.Aplication\\ParcialP3.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-11T15:54:01.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ParcialP3.WEB\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ParcialP3.WEB\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAwC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T03:18:03.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ParcialP3.WEB\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ParcialP3.WEB\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAwwIwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T14:35:13.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Controllers\\HomeController.cs",
@@ -263,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Views\\Users\\Delete.cshtml",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Views\\Users\\Delete.cshtml",
@@ -275,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "UserSession.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Middlewares\\UserSession.cs",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\Middlewares\\UserSession.cs",
@@ -287,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "SessionHelper.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\Helpers\\SessionHelper.cs",
               "RelativeDocumentMoniker": "ParcialP3.Aplication\\Helpers\\SessionHelper.cs",
@@ -299,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IUserSeccion.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\Interfaces\\IUserSeccion.cs",
               "RelativeDocumentMoniker": "ParcialP3.Aplication\\Interfaces\\IUserSeccion.cs",
@@ -311,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "AddUsersViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ViewModels\\AddUsersViewModel.cs",
               "RelativeDocumentMoniker": "ParcialP3.Aplication\\ViewModels\\AddUsersViewModel.cs",
@@ -323,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ParcialP3.Aplication\\ViewModels\\LoginViewModel.cs",
@@ -335,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "RegisterUsersViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ViewModels\\RegisterUsersViewModel.cs",
               "RelativeDocumentMoniker": "ParcialP3.Aplication\\ViewModels\\RegisterUsersViewModel.cs",
@@ -347,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "RemoveUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ViewModels\\RemoveUserViewModel.cs",
               "RelativeDocumentMoniker": "ParcialP3.Aplication\\ViewModels\\RemoveUserViewModel.cs",
@@ -359,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "UpdateUsersViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ViewModels\\UpdateUsersViewModel.cs",
               "RelativeDocumentMoniker": "ParcialP3.Aplication\\ViewModels\\UpdateUsersViewModel.cs",
@@ -371,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "UsersViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ViewModels\\UsersViewModel.cs",
               "RelativeDocumentMoniker": "ParcialP3.Aplication\\ViewModels\\UsersViewModel.cs",
@@ -383,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "UsersRepository.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Persistence\\Repositories\\UsersRepository.cs",
               "RelativeDocumentMoniker": "ParcialP3.Persistence\\Repositories\\UsersRepository.cs",
@@ -395,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Persistence\\Context\\DBContext.cs",
               "RelativeDocumentMoniker": "ParcialP3.Persistence\\Context\\DBContext.cs",
@@ -407,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Domain\\Entities\\Users.cs",
               "RelativeDocumentMoniker": "ParcialP3.Domain\\Entities\\Users.cs",
@@ -419,19 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ParcialP3.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ParcialP3.Application.csproj",
-              "RelativeDocumentMoniker": "ParcialP3.Aplication\\ParcialP3.Application.csproj",
-              "ToolTip": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Aplication\\ParcialP3.Application.csproj",
-              "RelativeToolTip": "ParcialP3.Aplication\\ParcialP3.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-11T15:54:01.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\appsettings.json",
               "RelativeDocumentMoniker": "ParcialP3.WEB\\appsettings.json",
@@ -440,18 +454,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-11T03:00:12.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Program.cs",
-              "RelativeDocumentMoniker": "ParcialP3.WEB\\Program.cs",
-              "ToolTip": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.WEB\\Program.cs",
-              "RelativeToolTip": "ParcialP3.WEB\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T02:58:04.688Z"
             },
             {
               "$type": "Document",

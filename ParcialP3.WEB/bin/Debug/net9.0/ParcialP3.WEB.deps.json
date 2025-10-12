@@ -669,7 +669,6 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http": "2.3.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.3.0",
-          "Microsoft.EntityFrameworkCore": "9.0.9",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.9",
           "Newtonsoft.Json": "13.0.4"
         },

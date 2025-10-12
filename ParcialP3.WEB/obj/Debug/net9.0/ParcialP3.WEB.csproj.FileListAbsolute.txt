@@ -473,7 +473,6 @@ C:\Users\Brian\Desktop\ParcialP3\ParcialP3.WEB\obj\Debug\net9.0\staticwebassets\
 C:\Users\Brian\Desktop\ParcialP3\ParcialP3.WEB\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ParcialP3.WEB.props
 C:\Users\Brian\Desktop\ParcialP3\ParcialP3.WEB\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ParcialP3.WEB.props
 C:\Users\Brian\Desktop\ParcialP3\ParcialP3.WEB\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Brian\Desktop\ParcialP3\ParcialP3.WEB\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Brian\Desktop\ParcialP3\ParcialP3.WEB\obj\Debug\net9.0\ParcialP.20E13A47.Up2Date
 C:\Users\Brian\Desktop\ParcialP3\ParcialP3.WEB\obj\Debug\net9.0\ParcialP3.WEB.dll
 C:\Users\Brian\Desktop\ParcialP3\ParcialP3.WEB\obj\Debug\net9.0\refint\ParcialP3.WEB.dll
