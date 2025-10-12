@@ -2769,11 +2769,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Persistence\\ParcialP3.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Persistence\\ParcialP3.Persistence.csproj",
       "projectName": "ParcialP3.Persistence",
-      "projectPath": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Persistence\\ParcialP3.Persistence.csproj",
+      "projectPath": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Persistence\\ParcialP3.Persistence.csproj",
       "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2794,8 +2794,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Domain\\ParcialP3.Domain.csproj": {
-              "projectPath": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Domain\\ParcialP3.Domain.csproj"
+            "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Domain\\ParcialP3.Domain.csproj": {
+              "projectPath": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Domain\\ParcialP3.Domain.csproj"
             }
           }
         }

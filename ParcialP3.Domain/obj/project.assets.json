@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Domain\\ParcialP3.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Domain\\ParcialP3.Domain.csproj",
       "projectName": "ParcialP3.Domain",
-      "projectPath": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Domain\\ParcialP3.Domain.csproj",
+      "projectPath": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Domain\\ParcialP3.Domain.csproj",
       "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brian\\Desktop\\New folder\\ParcialP3\\ParcialP3.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Brian\\Desktop\\ParcialP3\\ParcialP3.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

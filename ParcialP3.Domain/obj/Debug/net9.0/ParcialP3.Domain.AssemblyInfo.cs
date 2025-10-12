@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParcialP3.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c30f9f3bce6a6edfc35b162acb6b667f54bbd8ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+733c4736a257cef879202eb30cd324467f4804e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParcialP3.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParcialP3.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
