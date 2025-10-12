@@ -10,14 +10,6 @@ obj/
 *.userosscache
 *.sln.docstates
 
-# NuGet / packages
-packages/
-*.nupkg
-.nuget/
-
-# Rider / IDE
-.idea/
-
 # Otros temporales
 *.log
 *.cache
