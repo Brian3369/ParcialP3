@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParcialP3.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fc1abedeb381022e2cad48a7d9ca1fc7f29fe4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d57211f73dd9c464c7f7c7281172ece68ddf9a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParcialP3.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParcialP3.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

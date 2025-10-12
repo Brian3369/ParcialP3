@@ -21,8 +21,17 @@ namespace ParcialP3.Persistence.Repositories
 
         public async Task<Users> LoginAsync(string userName, string password)
         {
-            Users? user = await _dbContext.Set<Users>().FirstOrDefaultAsync
-            (u => u.Usuario == userName && u.Password == password);
+            Users? user = new Users();
+            try
+            {
+                user = await _dbContext.Set<Users>().FirstOrDefaultAsync
+                (u => u.Usuario == userName && u.Password == password);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error: {Exception}", ex);
+                return new Users();
+            }
             return user;
         }
 
@@ -47,10 +56,9 @@ namespace ParcialP3.Persistence.Repositories
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error:", ex);
+                _logger.LogError("Error: {Exception}", ex);
                 return null;
             }
-
             return datos;
         }
 
@@ -95,7 +103,7 @@ namespace ParcialP3.Persistence.Repositories
             }
             catch (Exception ex)
             {
-                _logger.LogError("Error:", ex);
+                _logger.LogError("Error: {Exception}", ex);
                 return false;
             }
             return true;
