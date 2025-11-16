@@ -10,6 +10,10 @@ namespace ParcialP3.Persistence.Context
         }
 
         public DbSet<Users> users { get; set; }
-        public DbSet<MStatus> mStatus { get; set; }
+        public DbSet<mSTATUS> mSTATUS { get; set; }
+        public DbSet<Ciudades> ciudades { get; set; }
+        public DbSet<Inmuebles> inmuebles { get; set; }
+        public DbSet<InmuebleImagenes> inmueblesImagenes { get; set; }
+        public DbSet<TipoPropiedad> tipoPropiedad { get; set; }
     }
 }

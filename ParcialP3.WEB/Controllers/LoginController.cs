@@ -7,11 +7,11 @@
 //using ItlaInvestmentApp.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using ParcialP3.Application.Interfaces;
-using ParcialP3.Application.ViewModels;
 using ParcialP3.Domain.Enums;
 using ParcialP3.Persistence.Interfaces;
 using ParcialP3.Application.Helpers;
 using ParcialP3.Domain.Entities;
+using ParcialP3.Application.ViewModels.Users;
 
 namespace ItlaInvestmentApp.Controllers
 {

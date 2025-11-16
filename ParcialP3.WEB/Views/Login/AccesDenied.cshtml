@@ -1,4 +1,5 @@
-﻿@inject ParcialP3.Application.Interfaces.IUserSeccion userSession;
+﻿@using ParcialP3.Application.ViewModels.Users
+@inject ParcialP3.Application.Interfaces.IUserSeccion userSession;
 
 @{
     UsersViewModel? user = userSession.GetUserSeccion();

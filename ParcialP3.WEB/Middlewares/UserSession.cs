@@ -1,6 +1,6 @@
 ﻿using ParcialP3.Application.Helpers;
 using ParcialP3.Application.Interfaces;
-using ParcialP3.Application.ViewModels;
+using ParcialP3.Application.ViewModels.Users;
 
 namespace ParcialP3.WEB.Middlewares
 {

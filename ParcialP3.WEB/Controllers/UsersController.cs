@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ParcialP3.Application.Interfaces;
-using ParcialP3.Application.ViewModels;
+using ParcialP3.Application.ViewModels.Users;
 using ParcialP3.Domain.Entities;
 using ParcialP3.Persistence.Interfaces;
 using ParcialP3.WEB.Middlewares;

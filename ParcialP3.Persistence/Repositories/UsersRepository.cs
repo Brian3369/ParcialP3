@@ -21,7 +21,7 @@ namespace ParcialP3.Persistence.Repositories
 
         public async Task<Users> LoginAsync(string userName, string password)
         {
-            Users? user = new Users();
+            Users user = new();
             try
             {
                 user = await _dbContext.Set<Users>().FirstOrDefaultAsync

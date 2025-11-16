@@ -1,4 +1,4 @@
-﻿using ParcialP3.Application.ViewModels;
+﻿using ParcialP3.Application.ViewModels.Users;
 
 namespace ParcialP3.Application.Interfaces
 {

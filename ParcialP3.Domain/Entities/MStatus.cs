@@ -4,10 +4,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ParcialP3.Domain.Entities
 {
     [Table("mSTATUS", Schema = "dbo")]
-    public sealed class MStatus
+    public sealed class mSTATUS
     {
         [Key]
-        public int idStatus {  get; set; }
-        public string status { get; set; }
+        public int Id {  get; set; }
+        public string? status { get; set; }
+
+        public ICollection<Users>? Users { get; set; } // Navigation property
     }
 }
