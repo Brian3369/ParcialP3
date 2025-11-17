@@ -1,0 +1,47 @@
+﻿@using ParcialP3.Application.ViewModels.Condicion
+@model CondicionViewModel
+
+@{
+    ViewData["Title"] = "Eliminar Condición";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-danger shadow-sm">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0"><i class="bi bi-trash"></i> Eliminar Condición</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="text-danger mb-3">
+                        <i class="bi bi-exclamation-triangle"></i> ¿Seguro que deseas eliminar esta condición?
+                    </h5>
+
+                    <dl class="row">
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Id)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Id)</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.DESCRIPCION)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.DESCRIPCION)</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Activo)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Activo)</dd>
+                    </dl>
+
+                    <form asp-action="Delete" method="post" class="mt-4">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Id" />
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-danger">
+                                <i class="bi bi-trash"></i> Eliminar
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Volver a la lista
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

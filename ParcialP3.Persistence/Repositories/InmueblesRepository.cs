@@ -6,13 +6,13 @@ using ParcialP3.Persistence.Interfaces;
 
 namespace ParcialP3.Persistence.Repositories
 {
-    public class InmuebleRepository : IInmuebleRepository
+    public class InmueblesRepository : IInmueblesRepository
     {
         private readonly DBContext _dbContext;
         private readonly DbSet<Inmuebles> inmuebles;
-        private readonly ILogger<InmuebleRepository> _logger;
+        private readonly ILogger<InmueblesRepository> _logger;
 
-        public InmuebleRepository(DBContext dbContext, ILogger<InmuebleRepository> logger)
+        public InmueblesRepository(DBContext dbContext, ILogger<InmueblesRepository> logger)
         {
             _dbContext = dbContext;
             _logger = logger;
@@ -33,15 +33,51 @@ namespace ParcialP3.Persistence.Repositories
                                    Direccion = i.Direccion,
                                    TipoPropiedadId = i.TipoPropiedadId,
                                    CondicionId = i.CondicionId,
-                                   CiudadId = i.CiudadId,
-                                   Inmuebleimagenid = i.Inmuebleimagenid,
+                                   CiudadesId = i.CiudadesId,
                                    Precio = i.Precio,
-                                   Habitaciones = i.Habitaciones,
+                                   Habitacion = i.Habitacion,
                                    Baños = i.Baños,
                                    Descripcion = i.Descripcion,
                                    TipoNegocio = i.TipoNegocio,
                                    Activo = i.Activo
                                }).ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error: {Exception}", ex);
+                return null;
+            }
+            return datos;
+        }
+
+        public async Task<List<Inmuebles>> GetAllWitchIncludes()
+        {
+            var datos = new List<Inmuebles>();
+            try
+            {
+                datos = await inmuebles
+                    .AsNoTracking()
+                    .Where(i => i.Activo)
+                    .Select(i => new Inmuebles
+                    {
+                        Id = i.Id,
+                        NombreInmueble = i.NombreInmueble,
+                        Direccion = i.Direccion,
+                        TipoPropiedadId = i.TipoPropiedadId,
+                        TipoPropiedad = i.TipoPropiedad,
+                        CondicionId = i.CondicionId,
+                        Condicion = i.Condicion,
+                        CiudadesId = i.CiudadesId,
+                        Ciudades = i.Ciudades,
+                        Imagenes = i.Imagenes,
+                        Precio = i.Precio,
+                        Habitacion = i.Habitacion,
+                        Baños = i.Baños,
+                        Descripcion = i.Descripcion,
+                        TipoNegocio = i.TipoNegocio,
+                        Activo = i.Activo
+                    })
+                    .ToListAsync();
             }
             catch (Exception ex)
             {

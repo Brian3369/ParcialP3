@@ -11,6 +11,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DBMVC")));
 
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
+builder.Services.AddScoped<IInmueblesRepository, InmueblesRepository>();
+builder.Services.AddScoped<ICondicionRepository, CondicionRepository>();
+builder.Services.AddScoped<ITipoPropiedadRepository, TipoPropiedadRepository>();
+builder.Services.AddScoped<ICiudadesRepository, CiudadesRepository>();
+
 
 builder.Services.AddControllersWithViews();
 

@@ -1,0 +1,61 @@
+﻿@using ParcialP3.Application.ViewModels.Inmuebles
+@model IEnumerable<InmueblesViewModel>
+
+@{
+    ViewData["Title"] = "Inmuebles";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="mb-0"><i class="bi bi-people"></i> Lista de inmueble</h1>
+        <a asp-action="Create" class="btn btn-success">
+            <i class="bi bi-person-plus"></i> Nuevo inmueble
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Id)</th>
+                    <th>@Html.DisplayNameFor(model => model.NombreInmueble)</th>
+                    <th>@Html.DisplayNameFor(model => model.Direccion)</th>
+                    <th>@Html.DisplayNameFor(model => model.TipoPropiedad)</th>
+                    <th>@Html.DisplayNameFor(model => model.Condicion)</th>
+                    <th>@Html.DisplayNameFor(model => model.Ciudades)</th>
+                    <th>@Html.DisplayNameFor(model => model.Precio)</th>
+                    <th>@Html.DisplayNameFor(model => model.Habitacion)</th>
+                    <th>@Html.DisplayNameFor(model => model.Baños)</th>
+                    <th>@Html.DisplayNameFor(model => model.Descripcion)</th>
+                    <th>@Html.DisplayNameFor(model => model.TipoNegocio)</th>
+                    <th>@Html.DisplayNameFor(model => model.Activo)</th>
+                    <th class="text-center">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NombreInmueble)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Direccion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TipoPropiedad)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Condicion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Ciudades)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Precio)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Habitacion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Baños)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TipoNegocio)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Activo)</td>
+                        <td class="text-center">
+                            @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "btn btn-primary btn-sm me-1", @title = "Editar" })
+                            @Html.ActionLink("Eliminar", "Delete", new { id = item.Id }, new { @class = "btn btn-danger btn-sm", @title = "Eliminar" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

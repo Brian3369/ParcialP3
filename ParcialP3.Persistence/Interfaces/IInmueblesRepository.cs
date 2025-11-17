@@ -3,8 +3,9 @@ using ParcialP3.Persistence.Base;
 
 namespace ParcialP3.Persistence.Interfaces
 {
-    public interface IInmuebleRepository : IBaseRepository<Inmuebles>
+    public interface IInmueblesRepository : IBaseRepository<Inmuebles>
     {
+        Task<List<Inmuebles>> GetAllWitchIncludes();
     }
 }
 

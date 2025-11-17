@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ParcialP3.Domain.Entities
 {
     [Table("TipoPropiedad", Schema = "dbo")]
-    public sealed class TipoPropiedad
+    public class TipoPropiedad
     {
         [Key]
         public int Id { get; set; }

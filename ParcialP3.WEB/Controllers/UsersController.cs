@@ -46,12 +46,6 @@ namespace ParcialP3.WEB.Controllers
             return View();
         }
 
-        // GET: UsersController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
         // GET: UsersController/Create
         public ActionResult Create()
         {

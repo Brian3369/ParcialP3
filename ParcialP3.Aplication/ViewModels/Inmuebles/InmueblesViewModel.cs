@@ -1,28 +1,36 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ParcialP3.Domain.Entities
+namespace ParcialP3.Application.ViewModels.Inmuebles
 {
-    [Table("Inmuebles", Schema = "dbo")]
-    public sealed class Inmuebles
+    public class InmueblesViewModel
     {
-        [Key]
+        [Required]
         public int Id { get; set; }
+        [Required]
         public string NombreInmueble { get; set; }
+        [Required]
         public string Direccion { get; set; }
+        [Required]
         public int TipoPropiedadId { get; set; }
-        public TipoPropiedad? TipoPropiedad { get; set; } // Navigation property
+        public string? TipoPropiedad { get; set; }
+        [Required]
         public int CondicionId { get; set; }
-        public Condicion? Condicion { get; set; } // Navigation property
+        public string? Condicion { get; set; }
+        [Required]
         public int CiudadesId { get; set; }
-        public Ciudades? Ciudades { get; set; } // Navigation property
+        public string? Ciudades { get; set; }
+        [Required]
         public decimal Precio { get; set; }
+        [Required]
         public int? Habitacion { get; set; }
+        [Required]
         public int Baños { get; set; }
+        [Required]
         public string? Descripcion { get; set; }
+        [Required]
         public string? TipoNegocio { get; set; }
+        [Required]
         public bool Activo { get; set; }
-
-        public ICollection<InmuebleImagenes>? Imagenes { get; set; } // Navigation property
+        public List<string>? Imagenes { get; set; }
     }
 }

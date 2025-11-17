@@ -6,9 +6,9 @@ namespace ParcialP3.Domain.Entities
     public sealed class InmuebleImagenes
     {
         public int Id { get; set; }
-        public int InmuebleId { get; set; }
-        public byte Imagen { get; set; }
+        public string? ImagenURL { get; set; }
+        public int InmueblesId { get; set; }
 
-        public ICollection<Inmuebles>? Inmuebles { get; set; } // Navigation property
+        public Inmuebles? Inmuebles { get; set; } // Navigation property
     }
 }

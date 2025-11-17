@@ -10,4 +10,7 @@
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.9" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParcialP3.Persistence\ParcialP3.Persistence.csproj" />
+  </ItemGroup>
 </Project>
